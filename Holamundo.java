@@ -8,7 +8,7 @@ package holamundo;
 /**
  *
  * @author Estudiantes
- */
+ */import java.util.Scanner;
 public class Holamundo {
 
     /**
@@ -16,7 +16,10 @@ public class Holamundo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hola mundo en java");
+        String nameuser;
+        Scanner sc = new Scanner(System.in);
+        nameuser = sc.nextLine();
+        System.out.println("hola mundo en java"+nameuser);
     }
     
 }
